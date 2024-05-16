@@ -1,3 +1,7 @@
 [workspace]
 members = ["exercises/*/*", "helpers/common", "helpers/ticket_fields"]
 resolver = "2"
+
+[profile.dev]
+opt-level = 1 
+overflow-checks = false
